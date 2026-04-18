@@ -1,7 +1,7 @@
 {
-  "name": "gaaju-md",
-  "description": "High performance multi-device WhatsApp bot",
-  "keywords": ["whatsapp-bot", "baileys", "gaaju-md"],
+  "name": "dev shadow-md",
+  "description": "Dev shadow le grand DEV & Tech",
+  "keywords": ["whatsapp-bot", "baileys", "dev shadow-md"],
   "repository": "https://github.com/Xchristech2/GAAJU-MD",
   "stack": "container",
   "env": {
@@ -11,7 +11,7 @@
       "value": ""
     },
     "OWNER_NUMBER": {
-      "description": "Your WhatsApp number with country code (e.g. 243001234567)",
+      "description": "Your WhatsApp number with country code (e.g. 923343841624)",
       "required": true,
       "value": "234000000000"
     },
@@ -33,12 +33,12 @@
     "BOT_NAME": {
       "description": "Your bot name",
       "required": false,
-      "value": "GAAJU-MD"
+      "value": "DEV SHADOW-MD"
     },
     "BOT_OWNER": {
       "description": "Owner display name",
       "required": false,
-      "value": "GlobalTech"
+      "value": "dev shadow Tech"
     },
     "PREFIXES": {
       "description": "Command prefixes separated by comma (e.g. .,!,/)",
@@ -48,7 +48,7 @@
     "PACKNAME": {
       "description": "Sticker pack name",
       "required": false,
-      "value": "GAAJU-MD"
+      "value": "DEV SHADOW-MD"
     },
     "COMMAND_MODE": {
       "description": "Bot mode: public or private",
