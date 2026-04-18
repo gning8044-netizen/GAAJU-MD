@@ -292,7 +292,7 @@ async function startQasimDev() {
                                 forwardingScore: 1,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363406588763460@newsletter',
+                                    newsletterJid: '',
                                     newsletterName: 'ᴄʜʀɪs ɢᴀᴀᴊᴜ',
                                     serverMessageId: -1
                                 }
@@ -442,13 +442,13 @@ async function startQasimDev() {
                     const botNumber = `${QasimDev.user.id.split(':')[0] }@s.whatsapp.net`;
                     const ghostStatus = (ghostMode && ghostMode.enabled) ? '\n👻 Stealth Mode: ACTIVE' : '';
                     await QasimDev.sendMessage(botNumber, {
-                        text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!${ghostStatus}\n\n✅Make sure to join below channel`,
+                        text: `🤖 Bot Dev shadow tech Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: connecte et securise!${ghostStatus}\n\n✅Jai pas de chaine💔`,
                         contextInfo: {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363406588763460@newsletter',
-                                newsletterName: 'CHRIS GAAJU TECH',
+                                newsletterJid: '',
+                                newsletterName: 'DEV SHADOW TECH',
                                 serverMessageId: -1
                             }
                         }
@@ -462,7 +462,7 @@ async function startQasimDev() {
                     owner = JSON.parse(fs.readFileSync('./data/owner.json', 'utf-8'));
                 }
                 catch (_e) { }
-                printLog('info', `[ ${config.botName || 'GAAJU-MD'} ]`);
+                printLog('info', `[ ${config.botName || 'DEV SHADOW-MD'} ]`);
                 printLog('info', `WA NUMBER  : ${owner[0] || config.ownerNumber || ''}`);
                 printLog('success', `Bot Connected Successfully!`);
                 printLog('info', `Plugins   : ${commandHandler.commands.size}`);
