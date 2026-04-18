@@ -2,12 +2,12 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
-    botName: process.env.BOT_NAME || 'GAAJU-MD',
-    botOwner: process.env.BOT_OWNER || 'Chris Gaaju',
-    ownerNumber: process.env.OWNER_NUMBER || '2348069675806',
-    author: process.env.AUTHOR || 'Xchristech2',
-    packname: process.env.PACKNAME || 'GAAJU-MD',
-    description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
+    botName: process.env.BOT_NAME || 'DEV SHADOW-MD',
+    botOwner: process.env.BOT_OWNER || 'Dev Shadow Tech',
+    ownerNumber: process.env.OWNER_NUMBER || '923343841624',
+    author: process.env.AUTHOR || 'dev shadow tech',
+    packname: process.env.PACKNAME || 'DEV SHADOW-MD',
+    description: process.env.DESCRIPTION || 'Shadow le grand DEV & Tech',
     version: '6.0.0',
     // Bot Config
     prefixes: _prefixes,
@@ -15,9 +15,9 @@ const config = {
     commandMode: process.env.COMMAND_MODE || 'public',
     timeZone: process.env.TIMEZONE || 'Africa/Lagos',
     // Links
-    channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbBvGgyFsn0alyIDjw0z',
+    channelLink: process.env.CHANNEL_LINK || '',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/Xchristech2/GAAJU-MD/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'Xchristech',
+    ytChannel: process.env.YT_CHANNEL || 'devshadowtech',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '',
